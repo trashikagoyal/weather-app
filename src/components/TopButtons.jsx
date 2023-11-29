@@ -25,7 +25,7 @@ function TopButtons({ setQuery }) {
   ];
 
   return (
-    <div className="flex items-center justify-around my-6">
+    <div className="flex items-center justify-around my-6 transition ease-out hover:scale-125">
       {cities.map((city) => (
         <button
           key={city.id}
